@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+button{
+    height: 30px;
+
+}
+
+.index{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('images/maxresdefault.jpg');
+    height: 100vh;
+   
+}
+.header{
+    margin: 0 auto;
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+a{
+    color: hsl(0, 60%, 68%);
+ transition: .3s ease;
+}
+a:hover{
+    transform: scale(1.6);
+}
+.logo{
+    font-family: 'Yeseva One', cursive;
+    font-size: 33px;
+    color: rgba(255, 0, 0, 0.747);
+}
+.logo.black{
+    
+    
+    color: rgb(255, 251, 0);
+}
+.menu{
+    display: flex;
+    gap: 33px;
+    margin-top: 53px;
+    font-size: 22px;
+    
+}
+.title{
+    text-align: right;
+    margin-top: 200px;
+    margin-right: 78px;
+    font-size: 32px;
+    color: rgba(68, 0, 225, 0.79);
+}
+.pers{
+    background-color: black;
+    
+}
+ .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 68px;
+    margin-left: 50px;
+    margin-top: 150px;
+ }
+ .card img{
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 46px;
+    pointer-events: none;
+ }
+ .card{
+    display: flex;
+
+ }
+ .card-desc{
+    margin-left: 52px;
+    margin-top: 16px;
+ }
+ .card-title{
+    font-size: 45px;
+    font-weight: 800;
+    color: rgb(225, 0, 255);
+ }
+ .card-text{
+    color: rgb(225, 0, 255);
+    font-size: 26px;
+    margin-right: 50px;
+ }
+ .manga{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('images/manga-bac.jpg');
+    height: 100vh;
+ }
+ .menu.black a{
+color: rgb(255, 217, 0);
+ }
+ .list{
+    margin-top: 150px;
+    margin-left: 50px;
+    display: flex; 
+    flex-direction: column;
+ }
+ .list a{
+    font-size: 52px;
+    font-weight: 500;
+    color: rgb(115, 255, 0);
+    text-decoration: none;
+    
+ }
+ .list a:hover{
+transform: scale(1);
+ }
